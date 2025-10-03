@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="kk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Мұхамеджан Тынышбайұлы — Профиль</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg: #0f1724;
+      --card: #0b1220;
+      --muted: #9aa4b2;
+      --accent: #8b5cf6;
+      --glass: rgba(255,255,255,0.03);
+      --radius: 14px;
+      color-scheme: dark;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial; background:linear-gradient(180deg,#071025 0%, #081026 60%); color:#e6eef8}
+    .container{max-width:980px;margin:40px auto;padding:28px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.012));border-radius:20px; box-shadow:0 6px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);}
+
+    header{display:flex;gap:18px;align-items:center}
+    .avatar{width:140px;height:140px;border-radius:16px;overflow:hidden;flex:0 0 140px;border:1px solid rgba(255,255,255,0.06)}
+    .avatar img{width:100%;height:100%;object-fit:cover;display:block}
+    h1{font-family: 'Playfair Display', serif;margin:0;font-size:28px}
+    .subtitle{color:var(--muted);margin-top:6px;font-size:14px}
+
+    .meta{display:flex;flex-wrap:wrap;gap:12px;margin-top:14px}
+    .pill{background:var(--glass);padding:8px 12px;border-radius:999px;font-size:13px;color:var(--muted);border:1px solid rgba(255,255,255,0.02)}
+
+    nav.actions{margin-left:auto;display:flex;gap:8px}
+    button.btn{background:transparent;border:1px solid rgba(255,255,255,0.06);color:inherit;padding:8px 12px;border-radius:10px;cursor:pointer;font-weight:600}
+    button.btn:focus{outline:3px solid rgba(139,92,246,0.18)}
+
+    main{display:grid;grid-template-columns:1fr 320px;gap:22px;margin-top:22px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.008));padding:18px;border-radius:12px;border:1px solid rgba(255,255,255,0.02)}
+
+    .bio h2{margin-top:0}
+    .bio p{line-height:1.6;color:#dbe9ff}
+
+    aside .card h3{margin:0 0 8px 0}
+    .list{padding-left:18px;margin:0}
+
+    footer{margin-top:20px;text-align:center;color:var(--muted);font-size:13px}
+
+    .modal{position:fixed;inset:0;background:rgba(2,6,23,0.7);display:none;align-items:center;justify-content:center;padding:20px}
+    .modal.open{display:flex}
+    .modal .frame{max-width:900px;width:100%;border-radius:12px;overflow:hidden;background:#071026;padding:18px}
+    .modal img{width:100%;height:auto;display:block;border-radius:8px}
+
+    @media (max-width:880px){main{grid-template-columns:1fr} .avatar{display:none} nav.actions{margin-left:0}}
+
+    :root[data-theme='light']{--bg:#f6f8fb;--card:#ffffff;--muted:#41505a;--accent:#6d28d9;color-scheme:light}
+    :root[data-theme='light'] body{background:linear-gradient(180deg,#f8fafc 0%, #eef2ff 60%);color:#0b1220}
+    :root[data-theme='light'] .container{box-shadow:0 6px 30px rgba(11,18,32,0.04)}
+    :root[data-theme='light'] .pill{background:rgba(11,18,32,0.02);color:var(--muted)}
+    :root[data-theme='light'] button.btn{border-color:rgba(11,18,32,0.06)}
+
+    .fade-in{animation:fadeIn .45s ease both}
+    @keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  </style>
+</head>
+<body>
+  <div class="container fade-in" id="app">
+    <header>
+      <div class="avatar">
+        <img src="data:image/jpeg;base64,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" alt="М.Тынышбаевтың портреті" onerror="this.src='https://via.placeholder.com/420x420?text=Portrait'">
+      </div>
+      <div>
+        <h1>Мұхамеджан Тынышбайұлы</h1>
+        <div class="subtitle">Алаш қозғалысының қайраткері · тарихшы · теміржол инженері</div>
+        <div class="meta">
+          <div class="pill">Туған жылы: 12 мамыр 1879</div>
+          <div class="pill">Қайтыс болган жылы: 21 қараша 1937</div>
+          <div class="pill">Орны: Жетісу (қазіргі Алматы облысы)</div>
+        </div>
+      </div>
+
+      <nav class="actions" aria-label="Әрекеттер">
+        <button class="btn" id="toggle-bio" aria-pressed="true">Биографияны жасыру</button>
+        <button class="btn" id="toggle-theme">Тақырыпты ауыстыру</button>
+        <button class="btn" id="open-photo">Портретті ашу</button>
+        <button class="btn" id="to-top">Бет басына</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="card bio" id="bio-section" aria-labelledby="bio-title">
+        <h2 id="bio-title">Биография</h2>
+        <p>Орта жүз Найман тайпасының Садыр руынан шыққан. Алаштың ірі қоғам және мемлекет қайраткері, тарихшы, ағартушы, тұңғыш темір жол инженері Мұхамеджан Тынышбаев 1879 жылы 12 мамырда Жетісу облысы Лепсі уезінде дүниеге келген. 1890 жылы Верный ерлер гимназиясының даярлық сыныбына қабылданып, 1906 жылы Петербор темір жол транспорты институтын бітірген. Ол студент кезінде белсенді ағартушылық және саяси қызметпен айналысқан, 1907 жылы ІІ Мемлекеттік Думаға сайланған және Түрксіб жобаларына қатысқан.</p>
+
+        <p>Тұтқындалуы және қуғын-сүргін: 1937 жылы сталиндік репрессия кезінде тұтқындалып, кейінірек ақталған деп есептеледі. Оның өмірі мен еңбегі бүгінде кеңінен зерттеліп, бірнеше мекеме мен орындар аталған.</p>
+      </section>
+
+      <aside>
+        <div class="card" aria-labelledby="quick-title">
+          <h3 id="quick-title">Жылдық шолу</h3>
+          <ul class="list">
+            <li>1879 — Туған күні</li>
+            <li>1890 — Верный гимназиясына қабылданды</li>
+            <li>1906 — Петербор институтын бітірді</li>
+            <li>1907 — ІІ Думға сайланды</li>
+            <li>1937 — Қуғын-сүргін, Ташкент</li>
+          </ul>
+        </div>
+
+        <div class="card" style="margin-top:12px;">
+          <h3>Қосымша</h3>
+          <p style="margin:0 0 10px 0;color:var(--muted);font-size:14px">Сайтқа қосымша батырмалар және интерактив мүмкіндіктер енгізілді:</p>
+          <ul class="list">
+            <li>Тақырыпты (қара/жеңіл) ауыстыру — сақталады</li>
+            <li>Биографияны жасыру/көрсету</li>
+            <li>Портрет модалы — үлкейтіп көру</li>
+          </ul>
+          <p style="margin-top:12px"><a href="https://www.google.com" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;font-weight:700">Google-ға өту</a></p>
+        </div>
+      </aside>
+    </main>
+
+  </div>
+
+  <div id="modal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="frame" role="document">
+      <button class="btn" id="close-modal" style="float:right;margin-bottom:8px">Жабу</button>
+      <img id="modal-img" src="C:\\Users\\Asus\\Desktop\\Tynyshpayev_M.jpg" alt="Портрет" onerror="this.src='https://via.placeholder.com/1200x800?text=Portrait'">
+    </div>
+  </div>
+
+  <script>
+    (function(){
+
+      const root = document.documentElement;
+      const stored = localStorage.getItem('theme');
+      if(stored === 'light') root.setAttribute('data-theme','light');
+
+      const toggleThemeBtn = document.getElementById('toggle-theme');
+      toggleThemeBtn.addEventListener('click', ()=>{
+        const now = root.getAttribute('data-theme') === 'light' ? 'dark':'light';
+        if(now === 'light') root.setAttribute('data-theme','light'); else root.removeAttribute('data-theme');
+        localStorage.setItem('theme', now);
+        toggleThemeBtn.blur();
+      });
+
+
+      const bioBtn = document.getElementById('toggle-bio');
+      const bio = document.getElementById('bio-section');
+      let visible = true;
+      bioBtn.addEventListener('click', ()=>{
+        visible = !visible;
+        bio.style.display = visible ? 'block':'none';
+        bioBtn.textContent = visible ? 'Биографияны жасыру' : 'Биографияны көрсету';
+        bioBtn.setAttribute('aria-pressed', String(visible));
+      });
+
+
+      const modal = document.getElementById('modal');
+      const openPhoto = document.getElementById('open-photo');
+      const closeModal = document.getElementById('close-modal');
+      openPhoto.addEventListener('click', ()=>{
+        modal.classList.add('open');
+        modal.setAttribute('aria-hidden','false');
+        closeModal.focus();
+      });
+      closeModal.addEventListener('click', ()=>{
+        modal.classList.remove('open');
+        modal.setAttribute('aria-hidden','true');
+        openPhoto.focus();
+      });
+      modal.addEventListener('click', (e)=>{ if(e.target === modal){ modal.classList.remove('open'); modal.setAttribute('aria-hidden','true'); }});
+
+
+      document.getElementById('to-top').addEventListener('click', ()=>{
+        window.scrollTo({top:0,behavior:'smooth'});
+      });
+
+      document.addEventListener('keydown', (e)=>{
+        if(e.key === 'Escape'){ if(modal.classList.contains('open')){ modal.classList.remove('open'); modal.setAttribute('aria-hidden','true'); }}
+      });
+
+ 
+      document.querySelectorAll('.bio p').forEach(p =>{
+        const max = 420;
+        if(p.textContent.length > max){
+          const full = p.textContent;
+          const short = full.slice(0,max).trim() + '...';
+          p.textContent = short;
+          const more = document.createElement('button');
+          more.className = 'btn'; more.style.marginLeft='10px'; more.textContent = 'Толығырақ';
+          more.addEventListener('click', ()=>{ if(more.textContent==='Толығырақ'){ p.textContent = full; more.textContent='Қысқарту' } else { p.textContent = short; more.textContent='Толығырақ' }});
+          p.after(more);
+        }
+      });
+
+    })()
+  </script>
+</body>
+</html>
