@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://asemshagirova180508-lgtm.github.io/My-site08/sitemap.xml
